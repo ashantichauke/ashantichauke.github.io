@@ -101,11 +101,12 @@ img {
 }
 
 .grid-container {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     justify-content: center;
+    
 }
 
 .grid-item {
@@ -114,7 +115,8 @@ img {
     border-radius: 8px;
     padding: 10px;
     text-align: center;
-    width: 100px; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    box-sizing: border-box;
 }
 
 .grid-item img {
