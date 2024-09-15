@@ -100,6 +100,16 @@ img {
     text-decoration: none;
 }
 
+#draft-ul {
+    display: flex;
+    list-style: none;
+}
+
+#team-ul {
+    display: flex;
+    list-style: none;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
