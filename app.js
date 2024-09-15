@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll("img");
 
     for(const image of images) {
-       fetch("https://api.balldontlie.io/v1/players/active")
+       fetch("https://sportsdata.io/developers/api-documentation/nba#players-profiles--by-team")
        .then(response => response.json())
        .then(data => {
             image.src = data.message
