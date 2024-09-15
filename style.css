@@ -169,12 +169,3 @@ img {
     text-align: center;
     grid-area: footer;
 }
-
-.h2_5 {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    box-shadow: white;
-    color: rgb(228, 36, 16, 1);
-    background-color: rgb(46, 55, 220);
-}
