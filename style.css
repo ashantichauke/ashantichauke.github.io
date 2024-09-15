@@ -102,10 +102,14 @@ img {
 
 .grid-container {
     display: grid;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust as needed */
     gap: 20px;
     padding: 20px;
     justify-content: center;
+   /* flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; */
     
 }
 
@@ -115,14 +119,18 @@ img {
     border-radius: 8px;
     padding: 10px;
     text-align: center;
-    width: 100%; /* Adjust as needed */
+    /*width: 100%; /* Adjust as needed */
     box-sizing: border-box;
 }
 
 .grid-item img {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Ensures images fit the width of their container */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Maintains aspect ratio and ensures image covers the dimensions */
     border-radius: 8px;
+   /* max-width: 100%;
+    height: auto;
+    border-radius: 8px; */
 }
 
 .grid-item p {
