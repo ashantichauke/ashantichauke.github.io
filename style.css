@@ -134,6 +134,15 @@ img {
     align-items: center; /* Center align items horizontally */
 }
 
+.grid-item h3 {
+    font-size: 22px; /* Adjust size as needed */
+    font-weight: bold;
+    margin-bottom: 15px; /* Space below the heading */
+    color: #333; /* Adjust color */
+    text-align: center; /* Optional: Center the heading */
+    text-transform: uppercase; /* Optional: Make text uppercase */
+}
+
 .grid-item img {
     /*width: 100%; /* Ensures images fit the width of their container */
     /*height: 150px; /* Fixed height */
