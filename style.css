@@ -16,6 +16,7 @@ body {
     1px -1px 0px white, /* this is the top-right shadow */
     -1px -1px 0px white; /* this is the top-left shadow */ 
     color: rgb(228, 36, 16, 1);
+    grid-area: header;
 }
 
 ul {
