@@ -158,3 +158,12 @@ img {
     font-size: 16px;
     color: #333;
 }
+
+.copy-footer {
+    padding: 16px;
+    background-color: cadetblue;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    grid-area: footer;
+}
