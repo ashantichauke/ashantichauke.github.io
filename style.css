@@ -101,12 +101,10 @@ img {
 }
 
 #draft-ul {
-    display: flex;
     list-style: none;
 }
 
 #team-ul {
-    display: flex;
     list-style: none;
 }
 
