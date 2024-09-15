@@ -9,12 +9,13 @@ body {
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
     box-shadow: 8px 8px 10px 3px navy;
-    width: 16%;
+    width: 22%;
     text-shadow: 
     1px 1px 0px black, /* this is the bottom-right shadow */
     -1px 1px 0px black, /* this is the bottom-left shadow */
     1px -1px 0px black, /* this is the top-right shadow */
-    -1px -1px 0px black; /* this is the top-left shadow */
+    -1px -1px 0px black; /* this is the top-left shadow */ 
+    color: rgb(228, 36, 16, 1);
 }
 
 ul {
