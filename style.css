@@ -89,6 +89,7 @@ img {
 #footer-ul {
     display: flex;
     list-style: none;
+    grid-area: footer;
 }
 
 #footer-ul > div > li{
